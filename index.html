@@ -9,15 +9,45 @@
 <body>
 
 <h1>GP Patient Management System</h1>
-<h2>Add Patient</h2>
+<div class="container">
+        <section>
 
-<input type="text" id="firstName" placeholder="First Name">
-<input type="text" id="lastName" placeholder="Last Name">
-<input type="date" id="dob">
+            <h2>Add Patient</h2>
+            <input type="text"
+                   id="firstName"
+                   placeholder="First Name">
+            <input type="text"
+                   id="lastName"
+                   placeholder="Last Name">
+            <input type="date"
+                   id="dob">
+            <select id="gender">
+                <option value="">
+                    Select Gender
+                </option>
+                <option value="Male">
+                    Male
+                </option>
+                <option value="Female">
+                    Female
+                </option>
+            </select>
+            <input type="text"
+                   id="phone"
+                   placeholder="Phone Number">
+            <input type="text"
+                   id="address"
+                   placeholder="Address">
+            <input type="text"
+                   id="condition"
+                   placeholder="Medical Condition">
+            <button id="addPatientBtn">
+                Add Patient
+            </button>
+            <p id="message"></p>
+        </section>
+        <section>
 
-<button id="addPatientBtn">
-    Add Patient
-</button>
 
 </body>
 </html>
